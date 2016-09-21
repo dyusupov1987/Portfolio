@@ -1,0 +1,265 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/concrete_seamless.png");
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main_header {
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+}
+
+.container > a {
+    width: 200px;
+    height: 70px;
+    background: #4aaaa5;
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+nav a {
+    display: inline;
+    padding: 10px;
+    color: #999;
+    border-left: 1px solid #efefef;
+    text-decoration: none;
+}
+
+nav a:first-child {
+    border-left: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+p {
+    line-height: 25px
+}
+
+.cat_image {
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+#main-container {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 0 auto 46px;
+    flex: 1;
+}
+
+.right-section {
+    width: 650px;
+    margin-right: 10px;
+    background-color: #fff;
+    float: left;
+    padding: 15px
+}
+
+.left-navbar {
+    width: 270px;
+    background-color: #fff;
+    float: right;
+}
+
+.left-navbar h2 {
+    margin: 10px;
+    padding: 10px
+}
+
+.contact_me {
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px;
+}
+
+.contact-image {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 8px
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size : 30px;
+    border-bottom: 2px solid #eee;
+    padding: 3px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+label {
+    color: #777777;
+    margin: 10px 0;
+    display: block;
+}
+
+input, textarea {
+    width: 98%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+.submit_button {
+    background-color: #4aaaa5;
+    border: none;
+    padding: 7px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.port_img {
+    float: left;
+    text-align: center;
+    margin: 25px;
+    position: relative;
+}
+
+.port_img img {
+    width:275px;
+    z-index: -1;
+}
+
+.port_img h3 {
+    margin-top: -45px;
+    background: #4aaaa5;
+    z-index: 1048;
+    position: absolute;
+    width: 275px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+footer {
+    height: 35px;
+    padding:15px;
+    text-align: center;
+    background-color: #666666;
+    color: #fff;
+    clear: both;
+    border-top: 5px solid #4aaaa4;
+}
+
+@media only screen and (max-width: 980px) {
+    .container {
+        padding: 0 20px;
+        max-width: 768px;
+    }
+    main.container {
+        padding-top: 130px;
+    }
+    .right-section {
+        max-width: 420px;
+    }
+    .work {
+        width: 100%;
+    }
+    .auth-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .right-section {
+        max-width: 45%;
+        margin-left: 20px;
+    }
+    .left-navbar {
+        max-width: 40%;
+        margin-right: 20px;
+    }
+    main {
+        overflow: auto;
+    }
+    .work {
+        width: 47%;
+        margin-bottom: 10px;
+    }
+    .work:nth-child(even){
+        margin-right: 0;
+    }
+    .work:nth-child(odd) {
+        float: right;
+    }
+    .cat_image {
+        width: 50%;
+    }
+    .left-navbar {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #main_header {
+        position: static;
+        margin-bottom: 20px;
+    }
+    header .container {
+        padding: 0;
+    }
+    div.container {
+        padding-top: 0;
+    }
+
+    .main_page {
+        width: 100% !important;
+    }
+    .work,
+    .cat_image {
+        width: 20%;
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        background-color: #fff;
+        padding: 15px;
+    }
+    nav a {
+        width: 30%;
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .right-section {
+        max-width: 100%;
+        float: left;
+        width: 85%;
+        margin: 30px;
+    }
+    .left-navbar {
+        max-width: 100%;
+        float: left;
+        width: 90%;
+        margin: 30px;
+    }
+}
+
