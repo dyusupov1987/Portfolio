@@ -1,0 +1,94 @@
+
+body {
+    background: #ddd;
+    background-repeat: repeat;
+    text-align: center;
+}
+#screen {
+    overflow: hidden;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+#screen div {
+    width: 100%;
+}
+
+#title {
+    margin: 0 auto;
+    color: #000;
+    background: #eee;
+    width: 250px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+#rules-area{
+    background: #f0f0f0;
+    width: 600px;
+    height: 600px;
+    color: brown;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 25px;
+
+}
+#random-area {
+    background: mediumseagreen;
+    height: 100px;
+    color: ghostwhite;
+    border-radius: 25px;
+
+}
+#random-number {
+    color: purple;
+    font-size: 3vw;
+}
+#score-area {
+    background: darkcyan;
+    width: 210px;
+    height: 100px;
+    color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 25px;
+
+}
+#score-title {
+    margin: 0 auto;
+    color: white;
+    background: darkcyan;
+    width: 210px;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+.crystals-button {
+    display: inline;
+}
+.crystal-img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: solid;
+    border-color: lightblue;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+#score-number{
+    font-size: 3vw;
+}
+
+#winArea {
+    margin: 10px auto;
+    height: 100px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 25px;
+
+}
+
+#winArea p {
+    color: ghostwhite;
+}

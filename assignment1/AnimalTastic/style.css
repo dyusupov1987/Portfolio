@@ -1,0 +1,37 @@
+body {
+    padding: 20px;
+}
+
+p {
+    list-style-type: none;
+    display: inline;
+    padding: 4px 6px;
+    background-color: #40bf80;
+    margin: 5px 10px;
+    line-height: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    float: left;
+}
+
+p:hover {
+    cursor: pointer;
+    background-color: #206040;
+}
+
+
+.add {
+    float: right;
+    margin: 20px;
+    padding:30px;
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    margin-top: 5px;
+}
